@@ -7,8 +7,8 @@ public class MysqlInfra {
     public Connection mysqlConnect() {
         try {
             String url = "jdbc:mysql://localhost:3306/java_application";
-            String user = "root";
-            String pass = "@Mr.robot!1";
+            String user = "xxx";
+            String pass = "xxx";
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(url, user, pass);
             System.out.println("dataBase is connected");
